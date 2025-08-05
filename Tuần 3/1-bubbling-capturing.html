@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+  <div id="parent" style="padding: 50px; background-color: lightblue;">
+    Parent
+    <button id="child">Child Button</button>
+  </div>
+
+  <script>
+    document.getElementById("parent").addEventListener("click", function () {
+      alert("Parent clicked (bubbling)");
+    });
+
+    document.getElementById("child").addEventListener("click", function (e) {
+      alert("Child clicked");
+      // e.stopPropagation(); // Dùng để chặn bubbling
+    });
+
+    // Capturing (true)
+    document.getElementById("parent").addEventListener(
+      "click",
+      function () {
+        console.log("Parent capturing click");
+      },
+      true
+    );
+  </script>
+</body>
+</html>

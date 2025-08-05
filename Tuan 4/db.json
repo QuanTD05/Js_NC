@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "name": "Sản phẩm C5",
+      "Describe": "Ngon bổ rẻ",
+      "quantity": "1252",
+      "image": "https://ila.edu.vn/wp-content/uploads/2023/03/tieng-anh-giao-tiep-cho-be-4.jpg",
+      "id": "3"
+    },
+    {
+      "id": "4",
+      "name": "Sản phẩm D",
+      "Describe": "Ngon bổ rẻ",
+      "quantity": "126",
+      "image": "https://ila.edu.vn/wp-content/uploads/2023/03/tieng-anh-giao-tiep-cho-be-4.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Sản phẩm E",
+      "Describe": "Ngon bổ rẻ",
+      "quantity": "127",
+      "image": "https://ila.edu.vn/wp-content/uploads/2023/03/tieng-anh-giao-tiep-cho-be-4.jpg"
+    },
+    {
+      "id": "5ea1",
+      "name": "Mèo",
+      "Describe": "Mèo to",
+      "quantity": "5",
+      "image": "https://pethouse.com.vn/wp-content/uploads/2022/12/anh-meo-anh-long-ngan-9988838880.jpg"
+    }
+  ]
+}

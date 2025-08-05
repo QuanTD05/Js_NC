@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+  <div class="container">
+    <h1>Title</h1>
+    <p class="text">Paragraph <span>inside</span> paragraph</p>
+  </div>
+
+  <script>
+    const p = document.querySelector(".text");
+    console.log("Parent:", p.parentElement);
+    console.log("Children:", p.children);
+    console.log("First Child:", p.firstElementChild);
+    console.log("Next Sibling:", p.nextElementSibling); // null
+  </script>
+</body>
+</html>

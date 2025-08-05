@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+  <button id="btn1">Say Hi</button>
+  <button id="btn2">Say Bye</button>
+
+  <script>
+    function greet(message) {
+      alert(message);
+    }
+
+    document.getElementById("btn1").addEventListener("click", function () {
+      greet("Hi there!");
+    });
+
+    document.getElementById("btn2").addEventListener("click", greet.bind(null, "Goodbye!"));
+  </script>
+</body>
+</html>
